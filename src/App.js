@@ -1,8 +1,12 @@
 import HEADER from "./component/header"
-import "./style/style.scss"
+import MINECONTENT from "./component/mainContent"
 function App() {
   return (
-   <HEADER></HEADER>
+    <div>
+          <HEADER></HEADER>
+          <MINECONTENT></MINECONTENT>
+    </div>
+
   );
 }
 
