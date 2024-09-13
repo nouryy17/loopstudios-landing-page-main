@@ -10,11 +10,11 @@ export default function () {
           <img src={img} className=" w-fit"></img>
             <nav className=" flex-1">
                 <ul className=" flex  justify-end ">
-                      <li className=" lg:mr-16 "><a className=" text-white cursor-pointer hover:underline  ">About</a></li>
-                      <li className=" lg:mr-16 "><a className=" text-white cursor-pointer hover:underline  "> Careers </a></li>
-                      <li className=" lg:mr-16 "><a className=" text-white cursor-pointer hover:underline  "> Events </a></li>
-                      <li className=" lg:mr-16 "><a className=" text-white cursor-pointer hover:underline  "> Products </a></li>
-                      <li className=" lg:mr-16 "><a className=" text-white cursor-pointer hover:underline  "> Support </a></li>
+                      <li className=" lg:mr-16 "><a className=" text-white cursor-pointer ">About</a></li>
+                      <li className=" lg:mr-16 "><a className=" text-white cursor-pointer "> Careers </a></li>
+                      <li className=" lg:mr-16 "><a className=" text-white cursor-pointer "> Events </a></li>
+                      <li className=" lg:mr-16 "><a className=" text-white cursor-pointer "> Products </a></li>
+                      <li className=" lg:mr-16 "><a className=" text-white cursor-pointer "> Support </a></li>
                 </ul> 
             </nav>
             <span className=" md:hidden">
