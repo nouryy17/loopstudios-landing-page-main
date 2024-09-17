@@ -1,3 +1,4 @@
+
 export default function ({src,tital}) {
     return(
         <div className="crtionBox relative cursor-pointer ">

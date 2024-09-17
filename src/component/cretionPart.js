@@ -16,7 +16,7 @@ import imgphoneFaif from "../images/mobile/image-from-above.jpg"
 import imgphoneSxe from "../images/mobile/image-pocket-borealis.jpg"
 import imgphoneSven from "../images/mobile/image-curiosity.jpg"
 import imgphoneEt from "../images/mobile/image-fisheye.jpg"
-const w = window.innerWidth > 1000
+const w = window.innerWidth > 768
 console.log(w)
 export default function () {
     return (
