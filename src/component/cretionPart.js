@@ -20,10 +20,10 @@ const w = window.innerWidth > 1000
 console.log(w)
 export default function () {
     return (
-        <div className=" p-20">
-            <div className=" flex justify-between mb-4">
-                <h1 className=" text-5xl uppercase font-extralight ">  Our creations </h1>
-                <button class=" mr-5 uppercase text-gray-700 px-10 py-1 border-x-2 border-y-2 border-gray-800"> see all</button>
+        <div className=" p-10 lg:p-20">
+            <div className=" flex justify-between items-center mb-4">
+                <h1 className=" h-fit md:text-5xl uppercase font-extralight ">  Our creations </h1>
+                <button class="  uppercase text-gray-700 px-5 py-1 hover:bg-black hover:text-white transition-all transition duration-1500 md:px-10 md:py-1 border-x-2 border-y-2 border-gray-800"> see all</button>
             </div>
             <div className=" grid  lg:grid-cols-4 gap-2">
                 <CRTIONBOX src={w ? imgOne  : imgphoneOne } tital={"Deep earth"}></CRTIONBOX>
